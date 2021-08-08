@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="js/jquery.lavalamp.min.js"> </script>
+    <script type="text/javascript" src="js/jquery.lavalamp.js"> </script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"> </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lavalamp</title>
+</head>
+<body>
+    <style type="text/css">
+    .lavalamp-object{
+        background-color: #bbb;
+    }
+    .img{
+        margin: 25px;
+    }
+    .lavalamp{
+        position: relative;
+        width: 500px;
+        height: 29;
+        background: url("gambar/bg.gif") no-repeat left top;
+        margin: 10px 0;
+        padding: 15px;
+        overflow: hidden;
+    }
+    </style>
+
+
+    <script>
+        $(document).ready(function(){
+            $('#default').lavalamp({
+                easing:'easeInOutElastic'
+            });
+        });
+    </script>
+</body>
+</html>
